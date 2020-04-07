@@ -6,6 +6,8 @@ import java.util.Random;
 
 public class MultiTh {
 
+
+
     private List<Integer> list1 = new ArrayList<Integer>();
     private List<Integer> list2 = new ArrayList<Integer>();
     private Random random = new Random();
