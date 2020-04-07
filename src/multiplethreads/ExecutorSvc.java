@@ -12,7 +12,7 @@ public class ExecutorSvc implements Runnable {
     public void run() {
         System.out.println("Started... " + id);
         try {
-            Thread.sleep(5000);
+            Thread.sleep(500);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
@@ -30,7 +30,7 @@ class TestExecSvc {
         for(int i = 1; i < 6; i++){
             service.submit(new ExecutorSvc(i));
         }
-
+        System.out.println("All tasks are submitted: ");
         service.shutdown();
 
         try {
