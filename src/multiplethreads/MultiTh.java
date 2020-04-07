@@ -9,8 +9,8 @@ public class MultiTh {
     private List<Integer> list1 = new ArrayList<Integer>();
     private List<Integer> list2 = new ArrayList<Integer>();
     private Random random = new Random();
-    final Object lock1 = new Object(); // providing seperate locks to synchronized block in stageOne()
-    final Object lock2 = new Object(); // providing seperate locks to synchronized block in stageTwo()
+    final Object lock1 = new Object(); // providing separate locks to synchronized block in stageOne()
+    final Object lock2 = new Object(); // providing separate locks to synchronized block in stageTwo()
 
     public static void main(String[] args) {
 
