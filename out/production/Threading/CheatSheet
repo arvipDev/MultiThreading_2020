@@ -1,0 +1,45 @@
+MultiThreading
+
+
+start() vs run()
+{
+	start() - it creates a new thread and will ask the processor to look for run() and execute it on the new thread. Encourages multithreading.
+		The new thread will create a new call stack and hence help multi threading.
+	run() - it does not create a new thread instead it runs on the thread that called it. Does not encourage multithreading.
+		The thread will enter the existing call stack instead of creating a new call stack and hence will be in a queue.
+}
+
+volatile keyword
+{
+	To access a variable of a thread using another thread, volatile keyword is used. The volatile variable will not be cached in a single thread.
+}
+
+
+synchronized keyword - every object in java has an intrensic lock/monitor lock/mutex. It provides acces to only one thread at a time by issuing lock.
+
+join()
+{
+	Thread class provides the join() method which allows one thread to wait until another thread completes its execution. If toin() is invoked, it will make sure the thread t is terminated before executing another thread
+}
+
+ExecutorService
+{
+	ExecutorService can be used to create a thread pool by calling its static method (Executors.newFixedThreadPool(no of threads in the pool))
+	It has a .submit(thread) method to submit the thread to the pool and .awaitTermination(measure, unit) to wait for a certain time for the pool to finish execution and a .shutdown() method to end.
+}
+
+CountDownLatch
+{
+	Thread waits for the given no of threads to start before it complete. .await(); is used to wait/return after the given no of threads complete. .countDown() is used to decrement the counter of the countDownLatch
+	Usefull to complete execution of prioritize threads/thread pool before starting new thread.
+}
+
+java.util.concurrent.ArrayBlockingQueue, java.util.concurrent.BlockingQueue: High level concurrency
+
+wait() notify() and notifyAll() - low level concurrency
+{
+	These can be called only in a synchronized block of code.
+	wait() - Releases the lock/monitor from the current thread/synchronized block. It puts the thread to sleep.
+	notify() - It wakes up the other thread from sleep and releases the lock/monitor. However, the thread/synchronized block must complete before moving to another thread.
+	notifyAll() - Same as notify() but wakes up all the thread that are waiting for the lock/monitor.
+}
