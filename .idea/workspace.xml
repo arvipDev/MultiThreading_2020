@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ba656b71-558d-4170-bb14-90b4c5e246c3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/multiplethreads/CDLatch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/multiplethreads/WaitNotify.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Threading/multiplethreads/CDLatch.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Threading/multiplethreads/CDLatch.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Threading/multiplethreads/process.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Threading/multiplethreads/process.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,11 +28,29 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/multiplethreads/CDLatch.java">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="19" column="42" selection-start-line="19" selection-start-column="42" selection-end-line="19" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/multiplethreads/ProducerConsumer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="30" column="6" selection-start-line="30" selection-start-column="6" selection-end-line="30" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/multiplethreads/WaitNotify.java">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="153">
-              <caret line="15" column="57" selection-start-line="15" selection-start-column="57" selection-end-line="15" selection-end-column="57" />
+              <caret line="12" column="17" lean-forward="true" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -68,6 +88,8 @@
         <option value="$PROJECT_DIR$/src/multiplethreads/ExecutorSvc.java" />
         <option value="$PROJECT_DIR$/src/multiplethreads/MultiTh.java" />
         <option value="$PROJECT_DIR$/src/multiplethreads/CDLatch.java" />
+        <option value="$PROJECT_DIR$/src/multiplethreads/ProducerConsumer.java" />
+        <option value="$PROJECT_DIR$/src/multiplethreads/WaitNotify.java" />
       </list>
     </option>
   </component>
@@ -77,7 +99,9 @@
     <option name="width" value="697" />
     <option name="height" value="735" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -101,6 +125,20 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="multiplethreads" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Threads" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Threads" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="multiplethreads" type="462c0819:PsiDirectoryNode" />
+              <item name="ProducerConsumer.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
+            <path>
+              <item name="Threads" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Threads" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="multiplethreads" type="462c0819:PsiDirectoryNode" />
+              <item name="WaitNotify.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -110,7 +148,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1586325535951" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1586332175470" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -128,7 +166,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.process">
+  <component name="RunManager" selected="Application.WaitNotify">
     <configuration name="CDLatch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="multiplethreads.CDLatch" />
       <module name="Threading" />
@@ -142,8 +180,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Process" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="multiplethreads.Process" />
+      <module name="Threading" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="multiplethreads.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestExecSvc" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="multiplethreads.TestExecSvc" />
+      <module name="Threading" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="multiplethreads.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WaitNotify" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="multiplethreads.WaitNotify" />
       <module name="Threading" />
       <extension name="coverage">
         <pattern>
@@ -170,6 +234,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.WaitNotify" />
+        <item itemvalue="Application.Process" />
         <item itemvalue="Application.process" />
         <item itemvalue="Application.CDLatch" />
         <item itemvalue="Application.TestExecSvc" />
@@ -208,15 +274,31 @@
       <option name="project" value="LOCAL" />
       <updated>1586273248500</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Day3 bigins">
+      <created>1586325836598</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1586325836598</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25340393" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49756098" visible="true" weight="0.25340393" />
+      <window_info id="Structure" order="1" sideWeight="0.502439" side_tool="true" weight="0.25340393" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Designer" order="4" />
@@ -228,7 +310,7 @@
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3289689" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49924356" weight="0.3289689" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50075644" side_tool="true" weight="0.3289689" />
       <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.49924356" weight="0.3289689" />
@@ -289,7 +371,8 @@
     <MESSAGE value="workspace.xml error rectification stage 1" />
     <MESSAGE value="workspace.xml error rectification stage 2" />
     <MESSAGE value="test" />
-    <option name="LAST_COMMIT_MESSAGE" value="test" />
+    <MESSAGE value="Day3 bigins" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day3 bigins" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/multiplethreads/MultiTh.java">
@@ -308,8 +391,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/multiplethreads/CDLatch.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="19" column="42" selection-start-line="19" selection-start-column="42" selection-end-line="19" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_91/src.zip!/java/util/AbstractQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="97" selection-start-line="97" selection-end-line="97" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/multiplethreads/ProducerConsumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" column="6" selection-start-line="30" selection-start-column="6" selection-end-line="30" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/multiplethreads/WaitNotify.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
-          <caret line="15" column="57" selection-start-line="15" selection-start-column="57" selection-end-line="15" selection-end-column="57" />
+          <caret line="12" column="17" lean-forward="true" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
         </state>
       </provider>
     </entry>
