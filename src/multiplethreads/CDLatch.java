@@ -10,8 +10,6 @@ public class CDLatch implements Runnable{
         this.cdl = latch;
     }
 
-
-
     @Override
     public void run() {
         System.out.println("Starting..." + cdl.getCount());
