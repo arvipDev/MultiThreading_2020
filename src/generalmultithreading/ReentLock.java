@@ -1,4 +1,4 @@
-package multiplethreads;
+package generalmultithreading;
 
 import java.util.Scanner;
 import java.util.concurrent.locks.Condition;

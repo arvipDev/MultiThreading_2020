@@ -1,4 +1,4 @@
-package multiplethreads;
+package generalmultithreading;
 
 public class Sync {
 

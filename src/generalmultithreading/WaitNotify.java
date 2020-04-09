@@ -1,4 +1,4 @@
-package multiplethreads;
+package generalmultithreading;
 
 public class WaitNotify {
     public static void main(String[] args) {

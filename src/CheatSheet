@@ -19,7 +19,14 @@ synchronized keyword - every object in java has an intrensic lock/monitor lock/m
 
 join()
 {
-	Thread class provides the join() method which allows one thread to wait until another thread completes its execution. If toin() is invoked, it will make sure the thread t is terminated before executing another thread
+	Thread class provides the join() method which allows one thread to wait until another thread completes its execution. If join() is invoked, it will make sure the thread t is terminated before executing another thread
+}
+
+interrupt()
+{
+	This lets the thread know that it has been interrupted. Can also use Thread.currentThread().isInterrupted() to check if an interrupt has occured during the execution.
+	This can be used during context switching.
+
 }
 
 ExecutorService
@@ -42,4 +49,28 @@ wait() notify() and notifyAll() - low level concurrency
 	wait() - Releases the lock/monitor from the current thread/synchronized block. It puts the thread to sleep.
 	notify() - It wakes up the other thread from sleep and releases the lock/monitor. However, the thread/synchronized block must complete before moving to another thread.
 	notifyAll() - Same as notify() but wakes up all the thread that are waiting for the lock/monitor.
+}
+
+Reentrant Lock and Condition's .await() and .signal()
+{
+	It is a lock that can be locked multiple times and needs to unlock the same number ot times to run a new thread.
+	Condition can store the Lock's object using lock.newCondition().
+	.await() waits to acquire the lock (releases the lock).
+	.signal() wakes up the other thread but does not release the lock.
+	.lock() is used to acquire the lock and .unlock() is used to release the lock.
+
+}
+
+Semaphore - .acquire() .release() .availablePermits()
+{
+	Semaphores controls access to resources by issuing locks to threads. The lock can be unlocked by any thread and not just the thread that has acquired the lock.
+	It has a counter that decrements when .acquire() is called and increments when .release() is called.
+	.availablePermits() can be used to get the number of permits a semaphore has available for the threads to acquire.
+	.aquire() waits indefinitely if there are no permits available for the thread to acquire.
+}
+
+Callable and Future {
+	Callable is used when a thread has to return some value. It can be used in place of Runnable when a value is to be returned from the thread.
+	Future is used to capture that returned value for the thread.
+	Wildcards can also be used <T>.
 }
