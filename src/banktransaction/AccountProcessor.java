@@ -27,7 +27,7 @@ public class AccountProcessor {
         }
     }
 
-    public void threadOne(){
+    private void threadOne(){
 
         //lock1.lock();
         //lock2.lock();
@@ -47,19 +47,16 @@ public class AccountProcessor {
         System.out.println("Total amount in account 1 " + account1.getBalance());
     }
 
-    public void threadTwo(){
+    private void threadTwo(){
 
         //lock1.lock();
         //lock2.lock();
         acquireLocks(lock1, lock2);
         try {
-            t2 = new Thread(new Runnable() {
-                @Override
-                public void run() {
-                    for (int i = 0; i < 100; i++){
-                        System.out.println("Account 1 balance: " + account1.getBalance());
-                        transact.transfer(random.nextInt(100), account2, account1);
-                    }
+            t2 = new Thread(() -> {
+                for (int i = 0; i < 100; i++){
+                    System.out.println("Account 1 balance: " + account1.getBalance());
+                    transact.transfer(random.nextInt(100), account2, account1);
                 }
             });
         } finally {
@@ -92,7 +89,7 @@ public class AccountProcessor {
         }
     }
 
-    public void process () {
+    private void process () {
 
         threadOne();
         threadTwo();

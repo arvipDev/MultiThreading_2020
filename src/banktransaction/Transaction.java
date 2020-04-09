@@ -3,10 +3,11 @@ package banktransaction;
 public class Transaction {
 
 
-    public int transfer (int amount, Account ac1, Account ac2){
+    int transfer (int amount, Account ac1, Account ac2){
         if(ac1.getBalance() < amount) return -1;
         ac1.setBalance(ac1.getBalance() - amount);
         ac2.setBalance(ac2.getBalance() + amount);
+        // can use deposit and withdraw methods.
         return ac1.getBalance();
     }
 
