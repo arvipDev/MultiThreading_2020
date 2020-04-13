@@ -2,45 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ba656b71-558d-4170-bb14-90b4c5e246c3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/generalmultithreading/CallableExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/generalmultithreading/InterruptsExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Threading/multiplethreads/CDLatch.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Threading/multiplethreads/ExecutorSvc.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Threading/multiplethreads/LowConsumerProducer$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Threading/multiplethreads/LowConsumerProducer$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Threading/multiplethreads/LowConsumerProducer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Threading/multiplethreads/MultiTh$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Threading/multiplethreads/MultiTh$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Threading/multiplethreads/MultiTh.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Threading/multiplethreads/Process$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Threading/multiplethreads/Process$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Threading/multiplethreads/ProcessFour.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Threading/multiplethreads/ProcessThree.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Threading/multiplethreads/Processor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Threading/multiplethreads/ProcessorTwo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Threading/multiplethreads/ProdConsReentrantLock$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Threading/multiplethreads/ProdConsReentrantLock$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Threading/multiplethreads/ProdConsReentrantLock.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Threading/multiplethreads/ProducerConsumer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Threading/multiplethreads/ReentLock$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Threading/multiplethreads/ReentLock$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Threading/multiplethreads/ReentLock.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Threading/multiplethreads/Sync.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Threading/multiplethreads/TestExecSvc.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Threading/multiplethreads/WaitNotify$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Threading/multiplethreads/WaitNotify.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Threading/multiplethreads/process.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CheatSheet" beforeDir="false" afterPath="$PROJECT_DIR$/src/CheatSheet" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/multiplethreads/CDLatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/generalmultithreading/CDLatch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/multiplethreads/ExecutorSvc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/generalmultithreading/ExecutorSvc.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/multiplethreads/LowConsumerProducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/generalmultithreading/LowConsumerProducer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/multiplethreads/MultiTh.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/generalmultithreading/MultiTh.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/multiplethreads/ProdConsReentrantLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/generalmultithreading/ProdConsReentrantLock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/multiplethreads/ProducerConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/generalmultithreading/ProducerConsumer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/multiplethreads/ReentLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/generalmultithreading/ReentLock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/multiplethreads/Sync.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/generalmultithreading/Sync.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/multiplethreads/WaitNotify.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/generalmultithreading/WaitNotify.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -93,7 +55,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/semaphoreExample/SemaphoreExample.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="226">
+            <state relative-caret-position="544">
               <caret line="32" column="25" selection-start-line="32" selection-start-column="25" selection-end-line="32" selection-end-column="25" />
             </state>
           </provider>
@@ -102,7 +64,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/semaphoreExample/Connection.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
+            <state relative-caret-position="425">
               <caret line="25" column="30" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="30" />
             </state>
           </provider>
@@ -111,8 +73,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/generalmultithreading/CallableExample.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="19" column="48" lean-forward="true" selection-start-line="19" selection-start-column="48" selection-end-line="19" selection-end-column="48" />
+            <state relative-caret-position="323">
+              <caret line="19" column="48" selection-start-line="19" selection-start-column="48" selection-end-line="19" selection-end-column="48" />
             </state>
           </provider>
         </entry>
@@ -120,8 +82,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/generalmultithreading/InterruptsExample.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="16" column="30" lean-forward="true" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
+            <state relative-caret-position="272">
+              <caret line="16" column="30" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -129,8 +91,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/CheatSheet">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+            <state relative-caret-position="170">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
             </state>
           </provider>
         </entry>
@@ -138,7 +100,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/banktransaction/AccountProcessor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-13">
+            <state relative-caret-position="425">
               <caret line="25" column="30" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="30" />
             </state>
           </provider>
@@ -208,33 +170,13 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="ProjectPane" />
       <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Threads" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Threads" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Threads" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Threads" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Threads" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Threads" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="generalmultithreading" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1586454048233" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1586456967784" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -409,7 +351,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586443784752</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Interrupts - thread interrupts and how to check it when a thread is running">
+      <created>1586454165518</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1586454165518</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TodoView">
@@ -423,9 +372,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49756098" visible="true" weight="0.25718608" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49756098" visible="true" weight="0.26096824" />
       <window_info id="Structure" order="1" sideWeight="0.502439" side_tool="true" weight="0.25340393" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -434,14 +382,14 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3289689" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3289689" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3289689" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49924356" weight="0.3289689" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50075644" side_tool="true" weight="0.3289689" />
-      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.49924356" weight="0.3289689" />
+      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.49924356" visible="true" weight="0.3289689" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.3289689" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -506,7 +454,8 @@
     <MESSAGE value="Reentrant lock and its .lock and .unlock, Condition's .awake() and .signal()" />
     <MESSAGE value="Bank Transaction simulation using 2 threads." />
     <MESSAGE value="Semaphores - .acquire, .release(), .availablePermits(), multithreaded utilization of semaphores." />
-    <option name="LAST_COMMIT_MESSAGE" value="Semaphores - .acquire, .release(), .availablePermits(), multithreaded utilization of semaphores." />
+    <MESSAGE value="Interrupts - thread interrupts and how to check it when a thread is running" />
+    <option name="LAST_COMMIT_MESSAGE" value="Interrupts - thread interrupts and how to check it when a thread is running" />
   </component>
   <component name="editorHistoryManager">
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_91/src.zip!/java/util/AbstractQueue.java">
@@ -551,6 +500,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/generalmultithreading/ReentLock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/generalmultithreading/ExecutorSvc.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="544">
@@ -562,20 +518,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="595">
           <caret line="35" column="9" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/generalmultithreading/ReentLock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/banktransaction/AccountProcessor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-13">
-          <caret line="25" column="30" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="30" />
         </state>
       </provider>
     </entry>
@@ -595,36 +537,43 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/semaphoreExample/SemaphoreExample.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
+        <state relative-caret-position="544">
           <caret line="32" column="25" selection-start-line="32" selection-start-column="25" selection-end-line="32" selection-end-column="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/semaphoreExample/Connection.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
+        <state relative-caret-position="425">
           <caret line="25" column="30" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/generalmultithreading/CallableExample.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="19" column="48" lean-forward="true" selection-start-line="19" selection-start-column="48" selection-end-line="19" selection-end-column="48" />
+        <state relative-caret-position="323">
+          <caret line="19" column="48" selection-start-line="19" selection-start-column="48" selection-end-line="19" selection-end-column="48" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/generalmultithreading/InterruptsExample.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="16" column="30" lean-forward="true" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
+        <state relative-caret-position="272">
+          <caret line="16" column="30" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/banktransaction/AccountProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="30" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/CheatSheet">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+        <state relative-caret-position="170">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
